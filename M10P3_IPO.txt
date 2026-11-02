@@ -1,0 +1,16 @@
+M10P3 - IPO Chart (Out the Door Car Price)
+
+INPUT                       PROCESS                                          OUTPUT
+---------------------------------------------------------------------------------------------
+response (Yes/No)           Loop while response is Yes
+make, model, EV code, MSRP  Read user input
+Arguments: MSRP, make,      Function out_the_door_price:                     Return: total price
+  model, EV code              Electric -> 0.30, Honda Accord -> 0.10,
+                              Toyota Rav4 -> 0.15, all others -> 0.05
+                              new MSRP = MSRP - MSRP x percent off
+                              total = new MSRP + new MSRP x 0.07
+                            Sum MSRPs and sum totals
+                            Display total                                    Out the door price
+response (Yes/No)           Ask user to repeat
+                            After loop display sums                          Sum of MSRPs,
+                                                                             sum of sales prices

@@ -1,0 +1,13 @@
+M10P1 - IPO Chart (Sales Forecast)
+
+INPUT                       PROCESS                                          OUTPUT
+---------------------------------------------------------------------------------------------
+response (Yes/No)           Loop while response is Yes
+last name, month, sales     Read user input
+Arguments: month, sales     Function compute_forecast:                       Return: next month's sales
+                              Jan-Mar -> 0.10, Apr-Jun -> 0.15,
+                              Jul-Sep -> 0.20, Oct-Dec -> 0.25
+                              next sales = sales x (1 + forecast percent)
+                            Display results                                  Last name,
+                                                                             next month's sales
+response (Yes/No)           Ask user to repeat

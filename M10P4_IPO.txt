@@ -1,0 +1,13 @@
+M10P4 - IPO Chart (Train Ticket Price)
+
+INPUT                       PROCESS                                          OUTPUT
+---------------------------------------------------------------------------------------------
+response (Yes/No)           Loop while response is Yes
+last name, miles            Read user input
+Argument: miles             Function ticket_price:                           Return: ticket price
+                              30 or more -> $12, 20 to 29 -> $10,
+                              10 to 19 -> $8, all others -> $5
+                            Sum ticket prices
+                            Display results                                  Last name, ticket price
+response (Yes/No)           Ask user to repeat
+                            After loop display sum                           Sum of all ticket prices

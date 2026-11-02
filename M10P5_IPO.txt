@@ -1,0 +1,15 @@
+M10P5 - IPO Chart (Assessed Home Value)
+
+INPUT                       PROCESS                                          OUTPUT
+---------------------------------------------------------------------------------------------
+response (Yes/No)           Loop while response is Yes
+county, market value        Read user input
+Arguments: county,          Function assessed_value:                         Return: assessed value
+  market value                Cook -> 0.90, DuPage -> 0.80,
+                              McHenry -> 0.75, Kane -> 0.60, others -> 0.70
+                              assessed = market value x percent
+                            Sum market values and assessed values
+                            Display assessed value                           Assessed value
+response (Yes/No)           Ask user to repeat
+                            After loop display sums                          Sum of market values,
+                                                                             sum of assessed values

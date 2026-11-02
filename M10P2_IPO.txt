@@ -1,0 +1,15 @@
+M10P2 - IPO Chart (Paint for a Room)
+
+INPUT                       PROCESS                                          OUTPUT
+---------------------------------------------------------------------------------------------
+response (Yes/No)           Loop while response is Yes
+length, width, height       Read user input
+Arguments: length,          Function wall_square_footage:                    Return: wall square footage
+  width, height               2 x length x height + 2 x width x height
+Arguments: length, width    Function ceiling_area (bonus):                   Return: ceiling area
+                              length x width
+                            wall gallons = wall square footage / 50
+                            ceiling gallons = ceiling area / 50
+                            Display results                                  Wall gallons,
+                                                                             ceiling gallons
+response (Yes/No)           Ask user to repeat
